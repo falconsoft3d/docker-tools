@@ -1,5 +1,15 @@
 # dokcer-tools
 
+# Abrir un docker
+````
+docker exec -it 4302d9c7b44b  bash
+````
+
+# Install nano
+````
+apk update
+apk add nano
+````
 
 # Portainer
 ````
@@ -12,7 +22,7 @@ docker run -d -p 9000:9000 -p 8000:8000 --name portainer --restart always -v /va
 ````
 git clone git@github.com:falconsoft3d/docker-tools.git
 
-cd monitore/netdata
+cd docker-tools/monitore/netdata
 
 docker run -d --name=netdata \
   -p 19999:19999 \
