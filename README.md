@@ -1,4 +1,4 @@
-# dokcer-tools
+# docker-tools
 ````
 apt-get update && apt-get upgrade -y
 apt  install docker.io docker-compose -y
